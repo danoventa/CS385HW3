@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{2857B73E-F847-4B02-9238-064979017E93}") = "PTHREADS", "PTHREADS\PTHREADS.cproj", "{0FBE1EFD-46E5-4592-9980-5876AFBE3A9A}"
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "orderSearcher", "PTHREADS\orderSearcher.cproj", "{0FBE1EFD-46E5-4592-9980-5876AFBE3A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{0FBE1EFD-46E5-4592-9980-5876AFBE3A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = PTHREADS\PTHREADS.cproj
+		StartupItem = PTHREADS\orderSearcher.cproj
 	EndGlobalSection
 EndGlobal

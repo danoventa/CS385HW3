@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0FBE1EFD-46E5-4592-9980-5876AFBE3A9A}</ProjectGuid>
     <Compiler>
-      <Compiler ctype="GppCompiler" xmlns="" />
+      <Compiler ctype="GppCompiler" />
     </Compiler>
     <Language>CPP</Language>
     <Target>Bin</Target>
@@ -31,6 +31,15 @@
     <SourceDirectory>.</SourceDirectory>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ArgCheckPT.cpp" />
+    <Compile Include="Assistants.cpp" />
     <Compile Include="main.cpp" />
+    <Compile Include="Rosie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="uberconnect.h" />
+    <None Include="ArgCheckPT.h" />
+    <None Include="Assistants.h" />
+    <None Include="Rosie.h" />
   </ItemGroup>
 </Project>
