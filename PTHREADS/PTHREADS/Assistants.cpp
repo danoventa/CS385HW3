@@ -1,9 +1,9 @@
 #include "Assistants.h"
 
-std::string getAName()
+string Assistants::getAName()
 {
-	std::string name;
-	getline(std::cin, name);
-	
+	string name;
+	getline(cin, name);
+
 	return name;
 }

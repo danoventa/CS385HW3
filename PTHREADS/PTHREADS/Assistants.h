@@ -2,9 +2,16 @@
 #define ASSISTANTS_H
 
 #include <iostream>
-#include <iostream>
 #include <string> 
 
-std::string getAName();
+using namespace std;
 
+class Assistants
+{
+public:
+	string getAName();
+	int getRandom();
+private:
+
+};
 #endif
