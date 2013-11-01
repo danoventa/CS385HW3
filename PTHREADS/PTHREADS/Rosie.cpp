@@ -1,7 +1,6 @@
 #include "Rosie.h"
 
 Rosie::Rosie(){
-	//srand(time(NULL));
 	assistant = new Assistants();
 }
 
