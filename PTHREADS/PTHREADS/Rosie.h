@@ -1,22 +1,22 @@
 #ifndef ROSIE_H
 #define ROSIE_H
 
-//#include <iostream>
 #include "Assistants.h"
 
-// using namespace std;
+using namespace std;
 
 class Rosie {
-public: 
-	Rosie();
-	int RandomR();
-	void greet();
-	void affirm();
-	void reportError(string s, int n);
+public:
+    Rosie();
+    int RandomR();
+    void greet();
+    void affirm();
+    void reportError(string s, int n);
 
 private:
-	Assistants *assistant;
-	std::string lastName;
+    Assistants *assistant;
+    string lastName;
+    string myName;
 };
 
-#endif
+#endif //ROSIE_H
