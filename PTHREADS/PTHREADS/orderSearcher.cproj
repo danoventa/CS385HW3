@@ -31,15 +31,15 @@
     <SourceDirectory>.</SourceDirectory>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ArgCheckPT.cpp" />
-    <Compile Include="Assistants.cpp" />
     <Compile Include="main.cpp" />
     <Compile Include="Rosie.cpp" />
+    <Compile Include="RosieAssistants.cpp" />
+    <Compile Include="RosieArgCheckPT.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="uberconnect.h" />
-    <None Include="ArgCheckPT.h" />
-    <None Include="Assistants.h" />
     <None Include="Rosie.h" />
+    <None Include="RosieAssistants.h" />
+    <None Include="RosieArgCheckPT.h" />
   </ItemGroup>
 </Project>

@@ -7,15 +7,15 @@ using namespace std;
 
 class Rosie {
 public:
-    Rosie();
+    Rosie(string name);
     int RandomR();
     void greet();
     void affirm();
-    void reportError(string s, int n);
+    void reportError(string item, string reason, int n);
 
 private:
     Assistants *assistant;
-    string lastName;
+    string userName;
     string myName;
 };
 
