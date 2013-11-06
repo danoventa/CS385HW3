@@ -5,8 +5,6 @@
 #include <time.h>
 #include <iostream>
 
-#include "Assistants.h"
-#include "ArgCheckPT.h"
 #include "Rosie.h"
 
 using namespace std;

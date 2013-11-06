@@ -1,20 +1,23 @@
 #ifndef ROSIE_H
 #define ROSIE_H
 
-#include "Assistants.h"
+#include "RosieAssistants.h"
+#include "RosieArgCheck.h"
 
 using namespace std;
 
 class Rosie {
 public:
-    Rosie(string name);
+    Rosie(string name, bool useArgs);
     int RandomR();
     void greet();
     void affirm();
     void reportError(string item, string reason, int n);
+    void useArgs(int min, int max, int rArgc, char **rArgv);
 
 private:
-    Assistants *assistant;
+    RosieAssistants *ras;
+    RosieArgCheck *rac;
     string userName;
     string myName;
 };

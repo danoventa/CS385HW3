@@ -1,6 +1,6 @@
-#include "Assistants.h"
+#include "RosieAssistants.h"
 
-string Assistants::getAName()
+string RosieAssistants::getAName()
 {
 	string name;
 	getline(cin, name);
