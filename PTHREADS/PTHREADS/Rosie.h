@@ -8,7 +8,7 @@ using namespace std;
 
 class Rosie {
 public:
-    Rosie(string name, bool useArgs);
+    Rosie(string name);
     int RandomR();
     void greet();
     void affirm();

@@ -1,6 +1,6 @@
 #include "Rosie.h"
 
-Rosie::Rosie(string name, bool useArgs){
+Rosie::Rosie(string name){
     ras = new RosieAssistants();
     myName = name;
     greet();
