@@ -32,14 +32,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.cpp" />
-    <Compile Include="Rosie.cpp" />
-    <Compile Include="RosieAssistants.cpp" />
-    <Compile Include="RosieArgCheck.cpp" />
+    <Compile Include="ArgCheck.cpp" />
+    <Compile Include="Assistant.cpp" />
+    <Compile Include="Operations.cpp" />
+    <Compile Include="Threading.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="uberconnect.h" />
-    <None Include="Rosie.h" />
-    <None Include="RosieAssistants.h" />
-    <None Include="RosieArgCheck.h" />
+    <None Include="ArgCheck.h" />
+    <None Include="Assistant.h" />
+    <None Include="Operations.h" />
+    <None Include="Threading.h" />
   </ItemGroup>
 </Project>

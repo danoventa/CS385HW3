@@ -5,7 +5,9 @@
 #include <time.h>
 #include <iostream>
 
-#include "Rosie.h"
+#include "Assistant.h"
+#include "ArgCheck.h"
+#include "Operations.h"
 
 using namespace std;
 

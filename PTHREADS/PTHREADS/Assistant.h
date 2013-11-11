@@ -1,12 +1,12 @@
-#ifndef ROSIEASSISTANTS_H
-#define ROSIEASSISTANTS_H
+#ifndef ASSISTANT_H
+#define ASSISTANT_H
 
 #include <iostream> 
 #include <string> 
 
 using namespace std;
 
-class RosieAssistants
+class Assistant
 {
 public:
 	string getAName();
