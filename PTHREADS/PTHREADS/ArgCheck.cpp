@@ -8,36 +8,35 @@ ArgCheck::ArgCheck(int min, int max, int argc, char **argv)
 	argVars = argv;
 }
 
-void ArgCheck::checkEmAll()
-{
-	checkNumArgs();
-	checkDataFile();
-}
-
 void ArgCheck::checkNumArgs()
 {
 	if (numArgs < minArgs)
 	{
-		cout << "Insuficient Arguments: Exiting \n";
+		cout << "This porridge is too cold... :( \n";
 		exit(1);
 	}
 	else if (numArgs > maxArgs)
 	{
-		cout << "Excessive Arguments: Exiting\n";
+		cout << "This porridge is too hot!!!! :( \n";
 		exit(1);
 	}
 	else 
-		cout << "Acceptable Number of Arguments\n";
+		cout << "This porridge is just right! :) \n";
 }
 
-void ArgCheck::checkDataFile()
+string ArgCheck::checkFile()
 {
 	string fileName;
-	if (argv[
-	fileName.assign(argv[0];
-	if (fileName == NULL){
-		cout << "File name " << fileName << " does not exist, exiting program.\n";
+	fileName.assign(argVars[0]);
+
+	ifstream inFile(fileName);
+
+	if (!inFile.is_open()){
+		cout << "File name " << fileName << " isn't here... :( \n";
 		exit (1);
 	}
-	
+	else
+		cout << "File name " << fileName << " exists! :) \n";
+
+	return fileName;
 }

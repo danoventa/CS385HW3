@@ -4,6 +4,7 @@
 #include <cstdio>
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
@@ -11,9 +12,9 @@ using namespace std;
 class ArgCheck {
 public:
 	ArgCheck(int min, int max, int argc, char **argv);
-	void checkEmAll();
 	void checkNumArgs();
-	void checkDataFile();
+	string checkFile();
+
 private:
 	int minArgs;
 	int maxArgs;

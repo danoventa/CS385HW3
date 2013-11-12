@@ -4,6 +4,7 @@
 #include <string>
 #include <time.h>
 #include <iostream>
+#include <fstream>
 
 #include "Assistant.h"
 #include "ArgCheck.h"
