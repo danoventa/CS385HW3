@@ -11,12 +11,15 @@ using namespace std;
 class Operations
 {
 public:
-	Operations();
+	Operations(int bufSize);
 	~Operations();
-	void argChecker(int min, int max, int argc, char **argv);
+	void checkArg(int min, int max, int argc, char **argv);
+	void printByArr();
 	void checkFile();
+	void printByArr(unsigned char **inBytes);
 private:
 	char **opArgs;
+	int bufferSize;
 	ArgCheck *ac;
 	ifstream inFile;
 };

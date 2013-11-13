@@ -1,8 +1,9 @@
 #include "Operations.h"
 
-Operations::Operations()
+Operations::Operations(int bufSize)
 {
 	cout << "It has begun \n";
+	bufferSize = bufSize;
 }
 
 Operations::~Operations()
@@ -11,7 +12,7 @@ Operations::~Operations()
 	inFile.close();
 }
 
-void Operations::argChecker(int min, int max, int argc, char **argv)
+void Operations::checkArg(int min, int max, int argc, char **argv)
 {
 	opArgs = argv;
 	ac = new ArgCheck(min, max, argc, argv);
@@ -34,3 +35,8 @@ void Operations::checkFile()
 	else
 		cout << "File name " << fileName << " exists! :) \n";
 }
+
+void Operations::printByArr(unsigned char **inBytes){
+
+}
+
