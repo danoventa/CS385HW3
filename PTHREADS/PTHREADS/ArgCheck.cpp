@@ -24,7 +24,7 @@ void ArgCheck::checkNumArgs()
 		cout << "This porridge is just right! :) \n";
 }
 
-string ArgCheck::checkFile()
+void ArgCheck::checkFile()
 {
 	string fileName;
 	fileName.assign(argVars[0]);
@@ -37,6 +37,4 @@ string ArgCheck::checkFile()
 	}
 	else
 		cout << "File name " << fileName << " exists! :) \n";
-
-	return fileName;
 }
