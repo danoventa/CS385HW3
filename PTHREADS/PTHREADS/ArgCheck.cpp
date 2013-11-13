@@ -23,18 +23,3 @@ void ArgCheck::checkNumArgs()
 	else 
 		cout << "This porridge is just right! :) \n";
 }
-
-void ArgCheck::checkFile()
-{
-	string fileName;
-	fileName.assign(argVars[0]);
-
-	ifstream inFile(fileName);
-
-	if (!inFile.is_open()){
-		cout << "File name " << fileName << " isn't here... :( \n";
-		exit (1);
-	}
-	else
-		cout << "File name " << fileName << " exists! :) \n";
-}

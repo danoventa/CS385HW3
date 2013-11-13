@@ -13,7 +13,6 @@ class ArgCheck {
 public:
 	ArgCheck(int min, int max, int argc, char **argv);
 	void checkNumArgs();
-	string checkFile();
 
 private:
 	int minArgs;

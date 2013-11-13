@@ -7,3 +7,4 @@ string Assistant::getAName()
 
 	return name;
 }
+
