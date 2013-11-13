@@ -2,10 +2,8 @@
 
 int main (int argc, char **argv)
 {
-	ArgCheck *ac = new ArgCheck(0, 2, argc, argv);
-	ac->checkNumArgs();
-	string fileName = ac->checkFile();
-	
+	Operations *op = new Operations Operations();
+
 	
 	return 0;
 }

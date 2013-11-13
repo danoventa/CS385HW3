@@ -5,3 +5,5 @@ Operations::Operations()
 	string name;
 	getline(cin, name);
 }
+
+
