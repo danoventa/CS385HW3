@@ -14,13 +14,14 @@ public:
 	Operations(int bufSize);
 	~Operations();
 	void checkArg(int min, int max, int argc, char **argv);
-	void printByArr();
-	void checkFile();
-	void printByArr(unsigned char **inBytes);
+	void openFile();
+	void fileToThreading();
+	void printByArr(unsigned char inBytes[]);
 private:
 	char **opArgs;
 	int bufferSize;
 	ArgCheck *ac;
 	ifstream inFile;
+
 };
 #endif

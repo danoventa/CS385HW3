@@ -1,17 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PTHREADS/Operations.cpp">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PTHREADS/Operations.h">
     <Files>
-      <File FileName="PTHREADS/main.cpp" Line="6" Column="2" />
-      <File FileName="PTHREADS/Operations.h" Line="19" Column="43" />
-      <File FileName="PTHREADS/Operations.cpp" Line="24" Column="2" />
-      <File FileName="PTHREADS/ArgCheck.h" Line="17" Column="9" />
-      <File FileName="PTHREADS/ArgCheck.cpp" Line="25" Column="2" />
+      <File FileName="PTHREADS/main.cpp" Line="10" Column="2" />
+      <File FileName="PTHREADS/Operations.h" Line="18" Column="25" />
+      <File FileName="PTHREADS/Operations.cpp" Line="38" Column="2" />
+      <File FileName="PTHREADS/ArgCheck.h" Line="1" Column="1" />
+      <File FileName="PTHREADS/ArgCheck.cpp" Line="20" Column="3" />
       <File FileName="PTHREADS/Assistant.h" Line="1" Column="1" />
-      <File FileName="PTHREADS/Assistant.cpp" Line="11" Column="1" />
+      <File FileName="PTHREADS/Assistant.cpp" Line="1" Column="1" />
       <File FileName="PTHREADS/Threading.h" Line="1" Column="1" />
-      <File FileName="PTHREADS/Threading.cpp" Line="1" Column="1" />
-      <File FileName="PTHREADS/uberconnect.h" Line="4" Column="18" />
+      <File FileName="PTHREADS/Threading.cpp" Line="3" Column="1" />
+      <File FileName="PTHREADS/uberconnect.h" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

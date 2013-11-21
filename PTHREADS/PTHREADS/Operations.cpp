@@ -17,15 +17,12 @@ void Operations::checkArg(int min, int max, int argc, char **argv)
 	opArgs = argv;
 	ac = new ArgCheck(min, max, argc, argv);
 	ac->checkNumArgs();
-	checkFile();
 }
 
-void Operations::checkFile()
+void Operations::openFile()
 {
 	string fileName;
-	cout << "worked 1 \n";
 	fileName.assign(opArgs[0]);
-	cout << "worked 2 \n";
 	inFile.open(fileName);
 
 	if (!inFile.is_open()){
@@ -36,7 +33,17 @@ void Operations::checkFile()
 		cout << "File name " << fileName << " exists! :) \n";
 }
 
-void Operations::printByArr(unsigned char **inBytes){
+void Operations::fileToThreading()
+{
+	
+}
 
+
+
+// another function to send the buffer chunk to the 
+
+void Operations::printByArr(unsigned char inBytes[])
+{
+	printf("this is %d %i  \n", inBytes[0], inBytes[1]);
 }
 
